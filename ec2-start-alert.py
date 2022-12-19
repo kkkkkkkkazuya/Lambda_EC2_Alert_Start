@@ -43,8 +43,6 @@ def lambda_handler(event, context):
     + '\n' + '※使わない時は極力停止してください。その際、連絡は必ずしてください。' + '\n'\
     +'※再起動する際は、別途でメールを送信してください。'
     
-
-    
     #sns情報
     sns_info = get_sns_detail(topic_arn, subject, message)
     
